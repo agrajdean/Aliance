@@ -160,3 +160,79 @@ body {
   font-weight: 400;
   line-height: 160%;
 }
+
+.section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.section-title {
+  font-family: "Bebas Neue Book";
+  font-size: 60px;
+  line-height: 120%;
+  color: #292d33;
+}
+
+.steps {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+
+.steps-item {
+  max-width: 330px;
+}
+
+.steps-num {
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  line-height: 120%;
+  color: #5c8ee5;
+  display: flex;
+  align-items: center;
+}
+
+.steps-num::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  color: #ebebf0;
+  margin-left: 30px;
+}
+
+.steps-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292d33;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.steps-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.steps-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #5c8ee5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.steps-link::before {
+  content: "";
+  height: 1px;
+  width: 40px;
+  background: #5c8ee5;
+  margin-right: 20px;
+}
