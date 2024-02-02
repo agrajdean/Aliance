@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 @font-face {
   font-family: "Bebas Neue Book";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
@@ -38,6 +42,11 @@ body {
   height: 72px;
 }
 
+.logo-svg {
+  width: 144px;
+  height: 44px;
+}
+
 .navbar-light .header-logo-path {
   fill: #292d33;
 }
@@ -48,28 +57,29 @@ body {
 }
 
 .header-image {
-  background: url("../img/header-bg.jpeg");
-  background-size: cover;
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover 99%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
+
   position: relative;
 }
 
 .header-image::before {
   content: "";
   position: absolute;
-  background: rgba(41, 45, 51, 0.6);
+  background: rgba(41, 45, 51, 0.65);
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 89%;
   z-index: 0;
 }
 
 .header-logo {
   display: flex;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 48px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
@@ -77,15 +87,21 @@ body {
 .header-nav {
   display: flex;
   flex-basis: 100%;
+  justify-content: space-between;
   list-style: none;
-  padding: 0 50;
-  margin: 0;
+  padding: 0px 212px 0px 50px;
+  margin: 0px;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 2%;
 }
 
 .header-nav-link {
   text-decoration: none;
   font-size: 16px;
-  margin-right: 50px;
+  font-weight: 400;
+  line-height: 1.6;
   color: inherit;
 }
 
@@ -108,7 +124,7 @@ body {
   font-weight: 600;
   line-height: 160%;
   color: #fff;
-  background: #3a71d1;
+  background: #5c8ee5;
   border: none;
   padding: 25px 60px;
   display: inline-block;
@@ -118,16 +134,20 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
+  padding: 25px 44px;
 }
 
 .header-button {
   height: 100%;
+  margin-left: 10px;
+  margin-top: 14px;
 }
 
 .seporator {
   background: #5c8ee5;
   width: 150px;
   height: 2px;
+  margin-left: 10px;
 }
 
 .header-content {
@@ -140,18 +160,25 @@ body {
 .header-title {
   max-width: 1080px;
   font-family: "Bebas Neue Book";
-  font-size: 80px;
-  line-height: 120%;
-  margin: 30px 0;
+  font-size: 78px;
+  line-height: 122%;
+  margin-top: 24px;
+  margin-left: 11px;
+  padding: 0;
+  letter-spacing: 1.6px;
+  word-spacing: -2.5px;
 }
 
 .header-text {
   max-width: 720px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-bottom: 36px;
+  margin-top: -14px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.5px;
 }
 
 .header-features {
@@ -159,14 +186,20 @@ body {
   min-height: 168px;
   padding: 0;
   margin-top: 100px;
+  margin-left: 9px;
   list-style: none;
   color: #fff;
   position: relative;
 }
 
 .header-features-item {
-  padding: 30px 50px;
+  padding: 32px 52px;
+  width: 288px;
   border: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.header-button {
+  padding: 26px 60px;
 }
 
 .header-features-item:not(:last-child) {
@@ -176,11 +209,13 @@ body {
 .header-features-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 162%;
+  margin-bottom: 0;
+  margin-top: 22px;
 }
 
 .section {
-  margin-top: 150px;
+  margin-top: 34px;
   margin-bottom: 150px;
 }
 
@@ -189,6 +224,8 @@ body {
   font-size: 60px;
   line-height: 120%;
   color: #292d33;
+  margin-top: 26px;
+  margin-left: 9px;
 }
 
 .steps {
@@ -209,6 +246,8 @@ body {
   color: #5c8ee5;
   display: flex;
   align-items: center;
+  margin-top: 4px;
+  margin-left: 9px;
 }
 
 .steps-num::after {
@@ -226,6 +265,7 @@ body {
   color: #292d33;
   margin-top: 30px;
   margin-bottom: 10px;
+  margin-left: 9px;
 }
 
 .steps-text {
@@ -235,6 +275,7 @@ body {
   color: #828a99;
   margin-top: 10px;
   margin-bottom: 20px;
+  margin-left: 9px;
 }
 
 .steps-link {
@@ -245,6 +286,8 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 160%;
+  margin-top: 24px;
+  margin-left: 9px;
 }
 
 .steps-link::before {
