@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 @font-face {
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: auto;
 }
 
@@ -26,7 +26,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  height: 94px;
+  height: 5.875rem;
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -39,12 +39,12 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
-  height: 72px;
+  height: 4.5rem;
 }
 
 .logo-svg {
-  width: 144px;
-  height: 44px;
+  width: 9rem;
+  height: 2.75rem;
 }
 
 .navbar-light .header-logo-path {
@@ -52,7 +52,7 @@ body {
 }
 
 .header {
-  padding: 94px;
+  padding: 5.875rem;
   min-height: 100vh;
 }
 
@@ -79,7 +79,7 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  padding: 0 48px;
+  padding: 0 3rem;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
@@ -89,8 +89,8 @@ body {
   flex-basis: 100%;
   justify-content: space-between;
   list-style: none;
-  padding: 0px 212px 0px 50px;
-  margin: 0px;
+  padding: 0rem 13.25rem 0rem 3.125rem;
+  margin: 0rem;
 }
 
 .header-nav-item:not(:last-child) {
@@ -99,7 +99,7 @@ body {
 
 .header-nav-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
   color: inherit;
@@ -109,24 +109,24 @@ body {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-right: 50px;
+  gap: 0.625rem;
+  margin-right: 3.125rem;
 }
 
 .header-phone-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   color: inherit;
 }
 
 .button {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
   color: #fff;
   background: #5c8ee5;
   border: none;
-  padding: 25px 60px;
+  padding: 1.5625rem 3.75rem;
   display: inline-block;
   cursor: pointer;
 }
@@ -134,72 +134,71 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
-  padding: 25px 44px;
+  padding: 1.5625rem 2.75rem;
 }
 
 .header-button {
   height: 100%;
-  margin-left: 10px;
-  margin-top: 14px;
+  margin-left: 0.625rem;
+  margin-top: 0.875rem;
 }
 
 .seporator {
   background: #5c8ee5;
-  width: 150px;
-  height: 2px;
-  margin-left: 10px;
+  width: 9.375rem;
+  height: 0.125rem;
+  margin-left: 0.625rem;
 }
 
 .header-content {
-  padding-top: 150px;
+  padding-top: 9.375rem;
   position: relative;
   z-index: 1;
   color: #fff;
 }
 
 .header-title {
-  max-width: 1080px;
+  max-width: 67.5rem;
   font-family: "Bebas Neue Book";
-  font-size: 78px;
+  font-size: 4.875rem;
   line-height: 122%;
-  margin-top: 24px;
-  margin-left: 11px;
+  margin-top: 1.5rem;
+  margin-left: 0.6875rem;
   padding: 0;
-  letter-spacing: 1.6px;
-  word-spacing: -2.5px;
+  letter-spacing: 0.1rem;
+  word-spacing: -0.1563rem;
 }
 
 .header-text {
-  max-width: 720px;
-  font-size: 16px;
+  max-width: 45rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin-left: 10px;
-  margin-bottom: 36px;
-  margin-top: -14px;
-  letter-spacing: 0.1px;
-  word-spacing: 0.5px;
+  margin: -0.875rem 0 2.25rem 0.625rem;
+
+  letter-spacing: 0.0063rem;
+  word-spacing: 0.0313rem;
 }
 
 .header-features {
   display: flex;
-  min-height: 168px;
+  min-height: 10.5rem;
   padding: 0;
-  margin-top: 100px;
-  margin-left: 9px;
+  margin-top: 6.25rem;
+  margin-left: 0.5625rem;
   list-style: none;
   color: #fff;
   position: relative;
 }
 
 .header-features-item {
-  padding: 32px 52px;
-  width: 288px;
+  padding: 2rem 3.25rem;
+  width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 
 .header-button {
-  padding: 26px 60px;
+  padding: 1.625rem 3.75rem;
 }
 
 .header-features-item:not(:last-child) {
@@ -207,75 +206,75 @@ body {
 }
 
 .header-features-text {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 162%;
   margin-bottom: 0;
-  margin-top: 22px;
+  margin-top: 1.375rem;
 }
 
 .section {
-  margin-top: 34px;
-  margin-bottom: 150px;
+  margin-top: 2.125rem;
+  margin-bottom: 9.375rem;
 }
 
 .section-title {
   font-family: "Bebas Neue Book";
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 120%;
   color: #292d33;
-  margin-top: 26px;
-  margin-left: 9px;
+  margin-top: 1.625rem;
+  margin-left: 0.5625rem;
 }
 
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .steps-item {
-  max-width: 330px;
+  max-width: 20.625rem;
 }
 
 .steps-num {
   font-family: "Bebas Neue";
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 120%;
   color: #5c8ee5;
   display: flex;
   align-items: center;
-  margin-top: 4px;
-  margin-left: 9px;
+  margin-top: 0.25rem;
+  margin-left: 0.5625rem;
 }
 
 .steps-num::after {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   width: 100%;
   color: #ebebf0;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .steps-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
   line-height: 160%;
   color: #292d33;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 9px;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+  margin-left: 0.5625rem;
 }
 
 .steps-text {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   color: #828a99;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 9px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0.5625rem;
 }
 
 .steps-link {
@@ -283,17 +282,47 @@ body {
   align-items: center;
   text-decoration: none;
   color: #5c8ee5;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
-  margin-top: 24px;
-  margin-left: 9px;
+  margin-top: 1.5rem;
+  margin-left: 0.5625rem;
 }
 
 .steps-link::before {
   content: "";
-  height: 1px;
-  width: 40px;
+  height: 0.0625rem;
+  width: 2.5rem;
   background: #5c8ee5;
-  margin-right: 20px;
+  margin-right: 1.25rem;
+}
+@media (max-width: 1800px) {
+  html {
+    font-size: 0.875rem;
+  }
+  .header-image::before {
+    height: 100%;
+  }
+}
+@media (max-width: 1550px) {
+  html {
+    font-size: 0.8125rem;
+  }
+}
+@media (max-width: 1425px) {
+  html {
+    font-size: 0.8125rem;
+  }
+  .header-nav {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .header-logo {
+    padding: 0px 1rem;
+  }
+}
+@media (max-width: 1195px) {
+  html {
+    font-size: 0.75rem;
+  }
 }
