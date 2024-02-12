@@ -31,7 +31,7 @@ body {
   align-items: center;
   color: #fff;
   height: 5.875rem;
-  position: fixed;
+  position: absolute;
   z-index: 2;
   width: 100%;
   left: 0;
@@ -48,6 +48,10 @@ body {
 
 .phone-icon {
   fill: #5c8ee6;
+}
+
+.logo {
+  display: none;
 }
 
 .logo-svg {
@@ -68,7 +72,6 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center top;
-
   position: relative;
 }
 
@@ -166,6 +169,7 @@ body {
   position: relative;
   z-index: 1;
   color: #fff;
+  width: 100%;
 }
 
 .header-title {
@@ -328,11 +332,7 @@ body {
     height: 100%;
   }
 }
-@media (max-width: 1560px) {
-  html {
-    font-size: 0.8125rem;
-  }
-}
+
 @media (max-width: 1460px) {
   html {
     font-size: 0.8125rem;
@@ -356,7 +356,7 @@ body {
 }
 @media (max-width: 1200px) {
   .container {
-    max-width: 70rem;
+    max-width: 80rem;
   }
   .header-nav {
     padding-left: 1.25rem;
@@ -527,10 +527,21 @@ body {
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 35rem;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .header-content {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 22rem;
+  }
+  .header-title {
+    font-size: 3rem;
   }
   .header-content {
     padding-top: 3rem;
