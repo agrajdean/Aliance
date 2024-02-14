@@ -64,7 +64,7 @@ body {
 }
 
 .header {
-  padding: 5.875rem;
+  padding: 0 15px 0 15px;
 }
 
 .header-image {
@@ -185,6 +185,8 @@ body {
   height: 100%;
   margin-left: 0.625rem;
   margin-top: 0.875rem;
+  padding: 1.625rem 3.75rem;
+  text-align: center;
 }
 
 .seporator {
@@ -192,6 +194,7 @@ body {
   width: 9.375rem;
   height: 0.125rem;
   margin-left: 0.625rem;
+  margin-top: 5rem;
 }
 
 .header-content {
@@ -208,7 +211,7 @@ body {
   font-family: "Bebas Neue Book";
   font-size: 4.875rem;
   line-height: 122%;
-  margin-top: 1.5rem;
+  margin-top: 39px;
   margin-left: 0.6875rem;
   padding: 0;
   letter-spacing: 0.1rem;
@@ -260,10 +263,6 @@ body {
   cursor: pointer;
 }
 
-.header-button {
-  padding: 1.625rem 3.75rem;
-}
-
 .header-features-text {
   font-size: 1rem;
   font-weight: 400;
@@ -273,8 +272,8 @@ body {
 }
 
 .section {
-  margin-top: 2.125rem;
-  margin-bottom: 9.375rem;
+  padding: 45px 15px 0 15px;
+  margin-bottom: 8.25rem;
 }
 
 .section-title {
@@ -289,23 +288,21 @@ body {
 .steps {
   display: flex;
   list-style: none;
-  padding: 0;
-  gap: 1.875rem;
 }
 
 .steps-item {
-  max-width: 20.625rem;
+  max-width: 360px;
 }
 
 .steps-num {
   font-family: "Bebas Neue";
   font-size: 3rem;
   line-height: 120%;
-  color: #5c8ee5;
+  color: rgb(92, 142, 229);
   display: flex;
   align-items: center;
-  margin-top: 0.25rem;
   margin-left: 0.5625rem;
+  margin-top: -14px;
 }
 
 .steps-num::after {
@@ -321,7 +318,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   color: #292d33;
-  margin-top: 1.875rem;
+  margin-top: 2.125rem;
   margin-bottom: 0.625rem;
   margin-left: 0.5625rem;
 }
@@ -383,9 +380,15 @@ body {
   padding-left: 0;
 }
 
+.production {
+  padding: 0 15px 0 15px;
+  margin-bottom: -0.75rem;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
 .card {
@@ -394,6 +397,8 @@ body {
   border: solid 1px #ebebf0;
   position: relative;
   transition: border 0.2s;
+  /* min-width: 30rem;
+  max-height: 37.0625rem; */
 }
 
 .card:hover .card-title {
@@ -405,7 +410,7 @@ body {
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 40px 50px;
 }
 
 .card-title {
@@ -720,10 +725,13 @@ body {
       "logo title"
       "text text";
   }
+  .header-button {
+    width: 96%;
+  }
 }
 @media (max-width: 375px) {
   .container {
-    max-width: 22rem;
+    max-width: 21rem;
   }
   .header-title {
     font-size: 3rem;
