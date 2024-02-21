@@ -668,7 +668,7 @@ body {
 
 .cta-form {
   max-width: 52.5rem;
-  margin-right: 8rem;
+  margin-right: 4rem;
   margin-top: 45px;
 }
 
@@ -708,7 +708,7 @@ body {
   left: 0;
   padding: 1.25rem 1.875rem;
   border: 1px solid #e4e4eb;
-  background-color: inherit;
+  background-color: #fff;
 }
 
 .input-group-label {
@@ -936,7 +936,7 @@ body {
 }
 
 .modal-title {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue Book";
   font-style: normal;
   font-weight: 400;
   font-size: 3rem;
