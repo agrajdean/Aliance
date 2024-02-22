@@ -43,6 +43,17 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
+}
+
+.navbar-scroll {
   height: 4.5rem;
 }
 
@@ -50,7 +61,7 @@ body {
   fill: #5c8ee6;
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 
@@ -64,7 +75,7 @@ body {
 }
 
 .header {
-  padding: 0 15px 0 15px;
+  padding: 0 0.9375rem 0 0.9375rem;
 }
 
 .header-image {
@@ -249,7 +260,7 @@ body {
 
 .slider-buttons {
   display: none;
-  height: 44px;
+  height: 2.75rem;
 }
 
 .slider-button-prev,
@@ -291,7 +302,7 @@ body {
 }
 
 .steps-item {
-  max-width: 360px;
+  max-width: 22.5rem;
 }
 
 .steps-num {
@@ -384,7 +395,7 @@ body {
 }
 
 .production {
-  padding: 0 15px 0 15px;
+  padding: 0 0.9375rem 0 0.9375rem;
   margin-bottom: -0.75rem;
 }
 
@@ -413,7 +424,7 @@ body {
 }
 
 .card-content {
-  padding: 40px 50px;
+  padding: 2.5rem 3.125rem;
 }
 
 .card-title {
@@ -442,7 +453,7 @@ body {
 }
 
 .trademark {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .trademark-cards {
@@ -501,7 +512,7 @@ body {
 .founder {
   position: relative;
   min-height: 41.25rem;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 .founder-photo {
@@ -552,7 +563,7 @@ body {
   align-items: center;
   gap: 1.25rem;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
   color: #828a99;
   padding: 0 0 1.125rem 0.875rem;
@@ -669,7 +680,7 @@ body {
 .cta-form {
   max-width: 52.5rem;
   margin-right: 4rem;
-  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 
 .cta-form-text {
@@ -717,7 +728,7 @@ body {
   top: 1.5rem;
   left: 1.975rem;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
   color: #828a99;
   transition: top 0.2s, left 0.2s font-size 0.2s;
@@ -739,7 +750,7 @@ body {
 
 .cta-form-footer {
   display: flex;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   align-items: center;
   gap: 1.875rem;
 }
@@ -835,7 +846,7 @@ body {
 }
 
 .footer-menu-list {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   padding-left: 1.25rem;
   list-style: none;
 }
@@ -1039,7 +1050,7 @@ body {
     flex-basis: 60%;
   }
   .cta-image {
-    max-width: 520px;
+    max-width: 32.5rem;
     width: 40%;
   }
   .footer-top {
@@ -1070,7 +1081,7 @@ body {
     display: flex;
   }
   .primary-buttons-wrapper {
-    height: 40px;
+    height: 2.5rem;
   }
   .primary-button-prev,
   .primary-button-next {
@@ -1159,7 +1170,7 @@ body {
   .mobile-menu-link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -1172,14 +1183,14 @@ body {
   .mobile-submenu-link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #828a99;
   }
   .mobile-phone {
     display: block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 160%;
     color: #292d33;
     text-decoration-line: underline;
@@ -1198,7 +1209,7 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 160%;
     color: #292d33;
   }
@@ -1210,10 +1221,10 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(14px);
+    transform: rotate(45deg) translateY(1.2rem);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-14px);
+    transform: rotate(-45deg) translateY(-1.2rem);
   }
   .trademark-cards {
     flex-direction: column;
@@ -1235,7 +1246,7 @@ body {
   .footer-top {
     flex-wrap: wrap;
     justify-content: start;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .footer-menu-column-2 {
     columns: 14rem auto;
@@ -1330,12 +1341,12 @@ body {
   }
   .footer-top {
     display: grid;
-    gap: 6px;
+    gap: 0.375rem;
   }
   .footer-info,
   .footer-menu-title,
   .footer-menu-link {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .footer-copyright,
   .footer-policy,
@@ -1343,7 +1354,7 @@ body {
   .footer-author {
     display: block;
     padding-bottom: 0.3125rem;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
   .footer-author {
     display: flex;
