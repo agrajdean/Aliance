@@ -114,7 +114,7 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.html" target="_blank" class="header-nav-link"
+          <a href="about.html" target="_blank" class="header-nav-link"
             >О компании</a
           >
         </li>
@@ -154,7 +154,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
+            <?php echo "Главная страница"; ?>
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
